@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 10px 120px 0;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 48px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+  min-width: 600px;
+}
+header select {
+  font-family: 'Tourney', cursive;
+  font-size: 22px;
+  font-weight: 600;
+  border: none;
+}
+nav {
+  font-family: 'Staatliches', cursive;
+  font-size: 22px;
+  font-weight: 400;
+  padding-top: 11px;
+}
+nav a {
+  text-decoration: none;
+}
+nav a:visited {
+  color: inherit;
+}
+section {
+  margin-bottom: 70px;
+  min-width: 600px;
+}
+h2 {
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  font-family: 'Francois One', sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+}
+h2>sup {
+  text-transform: capitalize;
+  font-family: 'Farro', sans-serif;
+  font-size: 20px;
+  font-weight: 300;  
+}
+ul {
+  list-style-position: inside;
+  list-style-type: none;
+}
+li{
+  margin-bottom: 40px;
+}
+li::before {
+  content: '+';
+  font-weight: 600;
+}
+.bg_grey {
+  background-color: rgb(201, 201, 201);
+}
